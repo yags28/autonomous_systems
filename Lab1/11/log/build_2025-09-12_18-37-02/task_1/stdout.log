@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/task_1/task_1.egg-info
+writing ../../build/task_1/task_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws/build/task_1/build
+creating /ros2_ws/build/task_1/build/lib
+creating /ros2_ws/build/task_1/build/lib/task_1
+copying task_1/talker.py -> /ros2_ws/build/task_1/build/lib/task_1
+copying task_1/__init__.py -> /ros2_ws/build/task_1/build/lib/task_1
+copying task_1/listener.py -> /ros2_ws/build/task_1/build/lib/task_1
+running install
+running install_lib
+creating /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /ros2_ws/build/task_1/build/lib/task_1/talker.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /ros2_ws/build/task_1/build/lib/task_1/__init__.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /ros2_ws/build/task_1/build/lib/task_1/listener.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/talker.py to talker.cpython-310.pyc
+byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/listener.py to listener.cpython-310.pyc
+running install_data
+creating /ros2_ws/install/task_1/share/ament_index
+creating /ros2_ws/install/task_1/share/ament_index/resource_index
+creating /ros2_ws/install/task_1/share/ament_index/resource_index/packages
+copying resource/task_1 -> /ros2_ws/install/task_1/share/ament_index/resource_index/packages
+copying package.xml -> /ros2_ws/install/task_1/share/task_1
+creating /ros2_ws/install/task_1/share/task_1/launch
+copying launch/pub_sub_launch.py -> /ros2_ws/install/task_1/share/task_1/launch
+running install_egg_info
+Copying ../../build/task_1/task_1.egg-info to /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /ros2_ws/install/task_1/lib/task_1
+Installing talker script to /ros2_ws/install/task_1/lib/task_1
+writing list of installed files to '/ros2_ws/build/task_1/install.log'

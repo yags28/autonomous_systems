@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/task_2_interfaces': /usr/bin/cmake /ros2_ws/src/task_2_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/task_2_interfaces
+Invoked command in '/ros2_ws/build/task_2_interfaces' returned '0': /usr/bin/cmake /ros2_ws/src/task_2_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/task_2_interfaces
+Invoking command in '/ros2_ws/build/task_2_interfaces': /usr/bin/cmake --build /ros2_ws/build/task_2_interfaces -- -j8 -l8
+Invoked command in '/ros2_ws/build/task_2_interfaces' returned '0': /usr/bin/cmake --build /ros2_ws/build/task_2_interfaces -- -j8 -l8
+Invoking command in '/ros2_ws/build/task_2_interfaces': /usr/bin/cmake --install /ros2_ws/build/task_2_interfaces
+Invoked command in '/ros2_ws/build/task_2_interfaces' returned '0': /usr/bin/cmake --install /ros2_ws/build/task_2_interfaces

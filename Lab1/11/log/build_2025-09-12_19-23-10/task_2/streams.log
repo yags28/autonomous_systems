@@ -1,0 +1,27 @@
+[0.389s] Invoking command in '/ros2_ws/src/task_2': PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[0.495s] running egg_info
+[0.496s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[0.496s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[0.497s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[0.497s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[0.498s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[0.500s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.501s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.502s] running build
+[0.502s] running build_py
+[0.503s] copying task_2/client.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.504s] running install
+[0.505s] running install_lib
+[0.506s] copying /ros2_ws/build/task_2/build/lib/task_2/client.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.511s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/client.py to client.cpython-310.pyc
+[0.512s] running install_data
+[0.514s] running install_egg_info
+[0.515s] removing '/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.516s] Copying ../../build/task_2/task_2.egg-info to /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[0.525s] running install_scripts
+[0.536s] Installing client script to /ros2_ws/install/task_2/lib/task_2
+[0.536s] Installing listener script to /ros2_ws/install/task_2/lib/task_2
+[0.537s] Installing service script to /ros2_ws/install/task_2/lib/task_2
+[0.537s] Installing talker script to /ros2_ws/install/task_2/lib/task_2
+[0.538s] writing list of installed files to '/ros2_ws/build/task_2/install.log'
+[0.551s] Invoked command in '/ros2_ws/src/task_2' returned '0': PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

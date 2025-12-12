@@ -1,0 +1,51 @@
+[0.277s] Invoking command in '/ros2_ws/src/task_2': CMAKE_PREFIX_PATH=/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/ros2_ws/install/task_2_interfaces/lib/aarch64-linux-gnu/pkgconfig:/ros2_ws/install/task_2_interfaces/lib/pkgconfig PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/ros2_ws/install/task_2_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[0.366s] running egg_info
+[0.366s] creating ../../build/task_2/task_2.egg-info
+[0.367s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[0.367s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[0.368s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[0.368s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[0.369s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[0.369s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.371s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.372s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.372s] running build
+[0.373s] running build_py
+[0.373s] creating /ros2_ws/build/task_2/build
+[0.374s] creating /ros2_ws/build/task_2/build/lib
+[0.374s] creating /ros2_ws/build/task_2/build/lib/task_2
+[0.374s] copying task_2/talker.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.375s] copying task_2/service.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.375s] copying task_2/client.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.376s] copying task_2/__init__.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.377s] copying task_2/listener.py -> /ros2_ws/build/task_2/build/lib/task_2
+[0.378s] running install
+[0.379s] running install_lib
+[0.379s] creating /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.379s] copying /ros2_ws/build/task_2/build/lib/task_2/talker.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.380s] copying /ros2_ws/build/task_2/build/lib/task_2/service.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.381s] copying /ros2_ws/build/task_2/build/lib/task_2/client.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.382s] copying /ros2_ws/build/task_2/build/lib/task_2/__init__.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.382s] copying /ros2_ws/build/task_2/build/lib/task_2/listener.py -> /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+[0.384s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/talker.py to talker.cpython-310.pyc
+[0.385s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/service.py to service.cpython-310.pyc
+[0.386s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/client.py to client.cpython-310.pyc
+[0.386s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/__init__.py to __init__.cpython-310.pyc
+[0.387s] byte-compiling /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/listener.py to listener.cpython-310.pyc
+[0.388s] running install_data
+[0.389s] creating /ros2_ws/install/task_2/share/ament_index
+[0.389s] creating /ros2_ws/install/task_2/share/ament_index/resource_index
+[0.390s] creating /ros2_ws/install/task_2/share/ament_index/resource_index/packages
+[0.390s] copying resource/task_2 -> /ros2_ws/install/task_2/share/ament_index/resource_index/packages
+[0.390s] copying package.xml -> /ros2_ws/install/task_2/share/task_2
+[0.391s] creating /ros2_ws/install/task_2/share/task_2/launch
+[0.391s] copying launch/service_launch.py -> /ros2_ws/install/task_2/share/task_2/launch
+[0.394s] running install_egg_info
+[0.394s] Copying ../../build/task_2/task_2.egg-info to /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[0.400s] running install_scripts
+[0.411s] Installing client script to /ros2_ws/install/task_2/lib/task_2
+[0.411s] Installing listener script to /ros2_ws/install/task_2/lib/task_2
+[0.413s] Installing service script to /ros2_ws/install/task_2/lib/task_2
+[0.414s] Installing talker script to /ros2_ws/install/task_2/lib/task_2
+[0.415s] writing list of installed files to '/ros2_ws/build/task_2/install.log'
+[0.428s] Invoked command in '/ros2_ws/src/task_2' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/ros2_ws/install/task_2_interfaces/lib/aarch64-linux-gnu/pkgconfig:/ros2_ws/install/task_2_interfaces/lib/pkgconfig PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/ros2_ws/install/task_2_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

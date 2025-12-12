@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (task_1) JobQueued: {'identifier': 'task_1', 'dependencies': OrderedDict()}
+[0.000404] (task_2_interfaces) JobQueued: {'identifier': 'task_2_interfaces', 'dependencies': OrderedDict()}
+[0.000486] (task_2) JobQueued: {'identifier': 'task_2', 'dependencies': OrderedDict([('task_2_interfaces', '/ros2_ws/install/task_2_interfaces')])}
+[0.000594] (task_2_interfaces) JobStarted: {'identifier': 'task_2_interfaces'}
+[0.005266] (task_1) JobStarted: {'identifier': 'task_1'}
+[0.010151] (task_2_interfaces) JobProgress: {'identifier': 'task_2_interfaces', 'progress': 'cmake'}
+[0.011914] (task_2_interfaces) JobProgress: {'identifier': 'task_2_interfaces', 'progress': 'build'}
+[0.012372] (task_2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/task_2_interfaces', '--', '-j8', '-l8'], 'cwd': '/ros2_ws/build/task_2_interfaces', 'env': OrderedDict([('HOSTNAME', 'da91d415076e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/task_2_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.100232] (-) TimerEvent: {}
+[0.112984] (task_2_interfaces) StdoutLine: {'line': b'[  1%] Built target task_2_interfaces__cpp\n'}
+[0.130052] (task_2_interfaces) StdoutLine: {'line': b'[ 12%] Built target task_2_interfaces__rosidl_generator_c\n'}
+[0.172484] (task_2_interfaces) StdoutLine: {'line': b'[ 41%] Built target task_2_interfaces__rosidl_typesupport_cpp\n'}
+[0.173936] (task_2_interfaces) StdoutLine: {'line': b'[ 44%] Built target task_2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.175743] (task_2_interfaces) StdoutLine: {'line': b'[ 52%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.181693] (task_2_interfaces) StdoutLine: {'line': b'[ 77%] Built target task_2_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.182444] (task_2_interfaces) StdoutLine: {'line': b'[ 77%] Built target task_2_interfaces__rosidl_typesupport_c\n'}
+[0.183559] (task_2_interfaces) StdoutLine: {'line': b'[ 79%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.198555] (task_2_interfaces) StdoutLine: {'line': b'[ 79%] Built target task_2_interfaces\n'}
+[0.201191] (-) TimerEvent: {}
+[0.202274] (task_2_interfaces) StdoutLine: {'line': b'[ 79%] Built target ament_cmake_python_copy_task_2_interfaces\n'}
+[0.217037] (task_2_interfaces) StdoutLine: {'line': b'[ 80%] Built target task_2_interfaces__py\n'}
+[0.255711] (task_2_interfaces) StdoutLine: {'line': b'[ 90%] Built target task_2_interfaces__rosidl_generator_py\n'}
+[0.281632] (task_2_interfaces) StdoutLine: {'line': b'[ 96%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.282453] (task_2_interfaces) StdoutLine: {'line': b'[ 96%] Built target task_2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.283699] (task_2_interfaces) StdoutLine: {'line': b'[100%] Built target task_2_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.302361] (-) TimerEvent: {}
+[0.314561] (task_2_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.315547] (task_2_interfaces) StdoutLine: {'line': b'writing task_2_interfaces.egg-info/PKG-INFO\n'}
+[0.316057] (task_2_interfaces) StdoutLine: {'line': b'writing dependency_links to task_2_interfaces.egg-info/dependency_links.txt\n'}
+[0.317209] (task_2_interfaces) StdoutLine: {'line': b'writing top-level names to task_2_interfaces.egg-info/top_level.txt\n'}
+[0.319884] (task_2_interfaces) StdoutLine: {'line': b"reading manifest file 'task_2_interfaces.egg-info/SOURCES.txt'\n"}
+[0.320979] (task_2_interfaces) StdoutLine: {'line': b"writing manifest file 'task_2_interfaces.egg-info/SOURCES.txt'\n"}
+[0.327656] (task_1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_1', 'build', '--build-base', '/ros2_ws/build/task_1/build', 'install', '--record', '/ros2_ws/build/task_1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/task_1', 'env': {'HOSTNAME': 'da91d415076e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros2_ws/build/task_1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.342850] (task_2_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_task_2_interfaces_egg\n'}
+[0.363442] (task_2_interfaces) CommandEnded: {'returncode': 0}
+[0.368606] (task_2_interfaces) JobProgress: {'identifier': 'task_2_interfaces', 'progress': 'install'}
+[0.375403] (task_2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/task_2_interfaces'], 'cwd': '/ros2_ws/build/task_2_interfaces', 'env': OrderedDict([('HOSTNAME', 'da91d415076e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/task_2_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.382615] (task_2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.383435] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/rosidl_interfaces/task_2_interfaces\n'}
+[0.383930] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.384418] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.385061] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.385452] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/joint_data.h\n'}
+[0.385695] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/sphere.h\n'}
+[0.386004] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/num.h\n'}
+[0.386395] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.386916] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__functions.c\n'}
+[0.387444] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__type_support.h\n'}
+[0.387925] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__functions.c\n'}
+[0.388355] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__struct.h\n'}
+[0.388758] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__struct.h\n'}
+[0.389065] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__functions.c\n'}
+[0.389327] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__struct.h\n'}
+[0.389585] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__functions.h\n'}
+[0.389985] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__type_support.h\n'}
+[0.390783] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__functions.h\n'}
+[0.391103] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.h\n'}
+[0.391527] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__functions.h\n'}
+[0.391837] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.392122] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/add_three_ints.h\n'}
+[0.392390] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.392693] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[0.393394] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[0.393900] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.h\n'}
+[0.394487] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[0.395024] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__functions.h\n'}
+[0.395318] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__struct.h\n'}
+[0.395736] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[0.396056] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__functions.c\n'}
+[0.396520] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/joint_state.h\n'}
+[0.397844] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/library_path.sh\n'}
+[0.398235] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/library_path.dsv\n'}
+[0.399197] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_generator_c.so\n'}
+[0.400015] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.400486] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.400947] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.401847] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.402206] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.402455] (-) TimerEvent: {}
+[0.402634] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.402902] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.403180] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.403816] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.404517] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.404839] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.405761] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.406413] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.406816] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.407248] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.407804] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__type_support.c\n'}
+[0.408058] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.408384] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.408610] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.c\n'}
+[0.408846] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__type_support.c\n'}
+[0.409178] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_introspection_c.h\n'}
+[0.409547] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.409908] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.410401] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.410987] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_introspection_c.h\n'}
+[0.411253] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.c\n'}
+[0.411538] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[0.411801] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.412819] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.414120] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_c.so\n'}
+[0.414605] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.414993] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.415449] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/sphere.hpp\n'}
+[0.415732] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/joint_data.hpp\n'}
+[0.415948] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.416659] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__type_support.hpp\n'}
+[0.417058] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__builder.hpp\n'}
+[0.417441] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[0.417728] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__struct.hpp\n'}
+[0.417981] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__traits.hpp\n'}
+[0.418243] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__builder.hpp\n'}
+[0.418519] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__traits.hpp\n'}
+[0.418780] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__builder.hpp\n'}
+[0.419059] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__traits.hpp\n'}
+[0.419540] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__struct.hpp\n'}
+[0.420064] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.hpp\n'}
+[0.421516] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__struct.hpp\n'}
+[0.423011] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.423937] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/num.hpp\n'}
+[0.424530] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.424986] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/add_three_ints.hpp\n'}
+[0.425870] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.426766] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__struct.hpp\n'}
+[0.427407] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[0.428368] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[0.429212] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.hpp\n'}
+[0.429611] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__builder.hpp\n'}
+[0.430120] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__traits.hpp\n'}
+[0.430606] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[0.430964] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[0.431361] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/joint_state.hpp\n'}
+[0.431878] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.432395] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.433269] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.433750] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.434511] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.434825] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.435218] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/dds_fastrtps\n'}
+[0.435669] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.436011] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.436554] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.437111] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.437712] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/dds_fastrtps\n'}
+[0.438524] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.439909] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.440568] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces\n'}
+[0.441102] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg\n'}
+[0.441489] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail\n'}
+[0.441918] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.442303] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.cpp\n'}
+[0.442536] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.442792] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.443046] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/num__type_support.cpp\n'}
+[0.443357] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[0.443755] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv\n'}
+[0.444933] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail\n'}
+[0.445461] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[0.445794] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.cpp\n'}
+[0.446286] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.446587] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.447878] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.449817] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.450827] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/pythonpath.sh\n'}
+[0.451210] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/pythonpath.dsv\n'}
+[0.451735] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.452227] (task_2_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.452914] (task_1) StdoutLine: {'line': b'running egg_info\n'}
+[0.453628] (task_1) StdoutLine: {'line': b'writing ../../build/task_1/task_1.egg-info/PKG-INFO\n'}
+[0.454075] (task_2_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.454701] (task_1) StdoutLine: {'line': b'writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt\n'}
+[0.455460] (task_1) StdoutLine: {'line': b'writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt\n'}
+[0.455943] (task_1) StdoutLine: {'line': b'writing requirements to ../../build/task_1/task_1.egg-info/requires.txt\n'}
+[0.456393] (task_1) StdoutLine: {'line': b'writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt\n'}
+[0.456835] (task_2_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.458812] (task_2_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.460580] (task_1) StdoutLine: {'line': b"reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'\n"}
+[0.461586] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces\n'}
+[0.462594] (task_1) StdoutLine: {'line': b"writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'\n"}
+[0.462964] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.463378] (task_1) StdoutLine: {'line': b'running build\n'}
+[0.463798] (task_1) StdoutLine: {'line': b'running build_py\n'}
+[0.464164] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.464679] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.465147] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg\n'}
+[0.465718] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_sphere.py\n'}
+[0.466040] (task_1) StdoutLine: {'line': b'copying task_1/listener.py -> /ros2_ws/build/task_1/build/lib/task_1\n'}
+[0.467047] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_sphere_s.c\n'}
+[0.467466] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_num_s.c\n'}
+[0.467789] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_joint_data_s.c\n'}
+[0.468477] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/__init__.py\n'}
+[0.469072] (task_1) StdoutLine: {'line': b'running install\n'}
+[0.469570] (task_1) StdoutLine: {'line': b'running install_lib\n'}
+[0.469948] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_num.py\n'}
+[0.470272] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_joint_data.py\n'}
+[0.470566] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/__init__.py\n'}
+[0.471149] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.471799] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.472337] (task_1) StdoutLine: {'line': b'copying /ros2_ws/build/task_1/build/lib/task_1/listener.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1\n'}
+[0.472788] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.473574] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv\n'}
+[0.473992] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_joint_state.py\n'}
+[0.474387] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_add_three_ints_s.c\n'}
+[0.474808] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_joint_state_s.c\n'}
+[0.475717] (task_1) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/listener.py to listener.cpython-310.pyc\n'}
+[0.477908] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/__init__.py\n'}
+[0.478192] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_add_three_ints.py\n'}
+[0.478421] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/libtask_2_interfaces__rosidl_generator_py.so\n'}
+[0.478762] (task_1) StdoutLine: {'line': b'running install_data\n'}
+[0.479151] (task_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.479525] (task_1) StdoutLine: {'line': b"removing '/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.479931] (task_1) StdoutLine: {'line': b'Copying ../../build/task_1/task_1.egg-info to /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info\n'}
+[0.488062] (task_1) StdoutLine: {'line': b'running install_scripts\n'}
+[0.500227] (task_1) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/task_1/lib/task_1\n'}
+[0.501343] (task_1) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/task_1/lib/task_1\n'}
+[0.502601] (task_1) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/task_1/install.log'\n"}
+[0.502899] (-) TimerEvent: {}
+[0.512427] (task_2_interfaces) StdoutLine: {'line': b"Listing '/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces'...\n"}
+[0.515625] (task_2_interfaces) StdoutLine: {'line': b"Listing '/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg'...\n"}
+[0.515928] (task_2_interfaces) StdoutLine: {'line': b"Listing '/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv'...\n"}
+[0.516230] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.516989] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.518045] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.518895] (task_1) CommandEnded: {'returncode': 0}
+[0.519615] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_generator_py.so\n'}
+[0.520217] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/JointData.idl\n'}
+[0.520593] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState.idl\n'}
+[0.521020] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/Num.idl\n'}
+[0.521493] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/Sphere.idl\n'}
+[0.522259] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/AddThreeInts.idl\n'}
+[0.522814] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/JointData.msg\n'}
+[0.523529] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState.srv\n'}
+[0.523747] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState_Request.msg\n'}
+[0.524124] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState_Response.msg\n'}
+[0.524471] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/Num.msg\n'}
+[0.524871] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/Sphere.msg\n'}
+[0.525339] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/AddThreeInts.srv\n'}
+[0.525692] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/AddThreeInts_Request.msg\n'}
+[0.525902] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/AddThreeInts_Response.msg\n'}
+[0.526311] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/package_run_dependencies/task_2_interfaces\n'}
+[0.526639] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/parent_prefix_path/task_2_interfaces\n'}
+[0.527057] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/ament_prefix_path.sh\n'}
+[0.527439] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.527794] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/path.sh\n'}
+[0.528059] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/path.dsv\n'}
+[0.528449] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.bash\n'}
+[0.528739] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.sh\n'}
+[0.528983] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.zsh\n'}
+[0.529309] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.dsv\n'}
+[0.529705] (task_2_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/package.dsv\n'}
+[0.532399] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/packages/task_2_interfaces\n'}
+[0.533805] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.534466] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.535403] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.536053] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.537633] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.538661] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.540015] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.540707] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.542010] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.543376] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.543856] (task_1) JobEnded: {'identifier': 'task_1', 'rc': 0}
+[0.545332] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.545622] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.545959] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.546696] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.547270] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.548180] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.548587] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.549028] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.549462] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.549867] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.550189] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.550485] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.550913] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.551201] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.551530] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfacesConfig.cmake\n'}
+[0.551879] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfacesConfig-version.cmake\n'}
+[0.552311] (task_2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/task_2_interfaces/share/task_2_interfaces/package.xml\n'}
+[0.554406] (task_2_interfaces) CommandEnded: {'returncode': 0}
+[0.579627] (task_2_interfaces) JobEnded: {'identifier': 'task_2_interfaces', 'rc': 0}
+[0.581457] (task_2) JobStarted: {'identifier': 'task_2'}
+[0.603191] (-) TimerEvent: {}
+[0.704321] (-) TimerEvent: {}
+[0.805157] (-) TimerEvent: {}
+[0.838287] (task_2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_2', 'build', '--build-base', '/ros2_ws/build/task_2/build', 'install', '--record', '/ros2_ws/build/task_2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/task_2', 'env': {'HOSTNAME': 'da91d415076e', 'ROS_PACKAGE_PATH': '/ros2_ws/install/task_2_interfaces/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ros2_ws/install/task_2_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros2_ws/install/task_2_interfaces/lib/aarch64-linux-gnu/pkgconfig:/ros2_ws/install/task_2_interfaces/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros2_ws/build/task_2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/install/task_2_interfaces'}, 'shell': False}
+[0.906180] (-) TimerEvent: {}
+[0.928001] (task_2) StdoutLine: {'line': b'running egg_info\n'}
+[0.928959] (task_2) StdoutLine: {'line': b'writing ../../build/task_2/task_2.egg-info/PKG-INFO\n'}
+[0.929569] (task_2) StdoutLine: {'line': b'writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt\n'}
+[0.930156] (task_2) StdoutLine: {'line': b'writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt\n'}
+[0.930682] (task_2) StdoutLine: {'line': b'writing requirements to ../../build/task_2/task_2.egg-info/requires.txt\n'}
+[0.931150] (task_2) StdoutLine: {'line': b'writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt\n'}
+[0.933820] (task_2) StdoutLine: {'line': b"reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'\n"}
+[0.934851] (task_2) StdoutLine: {'line': b"writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'\n"}
+[0.935171] (task_2) StdoutLine: {'line': b'running build\n'}
+[0.935456] (task_2) StdoutLine: {'line': b'running build_py\n'}
+[0.936329] (task_2) StdoutLine: {'line': b'running install\n'}
+[0.936871] (task_2) StdoutLine: {'line': b'running install_lib\n'}
+[0.938379] (task_2) StdoutLine: {'line': b'running install_data\n'}
+[0.940147] (task_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.940838] (task_2) StdoutLine: {'line': b"removing '/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.941972] (task_2) StdoutLine: {'line': b'Copying ../../build/task_2/task_2.egg-info to /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info\n'}
+[0.948279] (task_2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.958591] (task_2) StdoutLine: {'line': b'Installing client script to /ros2_ws/install/task_2/lib/task_2\n'}
+[0.959426] (task_2) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/task_2/lib/task_2\n'}
+[0.959999] (task_2) StdoutLine: {'line': b'Installing service script to /ros2_ws/install/task_2/lib/task_2\n'}
+[0.960552] (task_2) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/task_2/lib/task_2\n'}
+[0.961452] (task_2) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/task_2/install.log'\n"}
+[0.973890] (task_2) CommandEnded: {'returncode': 0}
+[0.984148] (task_2) JobEnded: {'identifier': 'task_2', 'rc': 0}
+[0.985536] (-) EventReactorShutdown: {}

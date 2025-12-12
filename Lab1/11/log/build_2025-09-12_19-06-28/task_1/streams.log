@@ -1,0 +1,28 @@
+[0.369s] Invoking command in '/ros2_ws/src/task_1': PYTHONPATH=/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /ros2_ws/build/task_1/build install --record /ros2_ws/build/task_1/install.log --single-version-externally-managed install_data
+[0.506s] running egg_info
+[0.507s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[0.508s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[0.508s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[0.513s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.514s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.514s] running build
+[0.515s] running build_py
+[0.516s] copying task_1/talker.py -> /ros2_ws/build/task_1/build/lib/task_1
+[0.518s] copying task_1/listener.py -> /ros2_ws/build/task_1/build/lib/task_1
+[0.521s] running install
+[0.521s] running install_lib
+[0.521s] copying /ros2_ws/build/task_1/build/lib/task_1/talker.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.522s] copying /ros2_ws/build/task_1/build/lib/task_1/listener.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.524s] byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/talker.py to talker.cpython-310.pyc
+[0.526s] byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/listener.py to listener.cpython-310.pyc
+[0.526s] running install_data
+[0.529s] running install_egg_info
+[0.530s] removing '/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.532s] Copying ../../build/task_1/task_1.egg-info to /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.558s] Installing listener script to /ros2_ws/install/task_1/lib/task_1
+[0.559s] Installing talker script to /ros2_ws/install/task_1/lib/task_1
+[0.560s] writing list of installed files to '/ros2_ws/build/task_1/install.log'
+[0.576s] Invoked command in '/ros2_ws/src/task_1' returned '0': PYTHONPATH=/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /ros2_ws/build/task_1/build install --record /ros2_ws/build/task_1/install.log --single-version-externally-managed install_data

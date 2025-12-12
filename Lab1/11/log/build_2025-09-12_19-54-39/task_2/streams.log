@@ -1,0 +1,24 @@
+[0.259s] Invoking command in '/ros2_ws/src/task_2': CMAKE_PREFIX_PATH=/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/ros2_ws/install/task_2_interfaces/lib/aarch64-linux-gnu/pkgconfig:/ros2_ws/install/task_2_interfaces/lib/pkgconfig PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/ros2_ws/install/task_2_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[0.347s] running egg_info
+[0.348s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[0.348s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[0.349s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[0.349s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[0.350s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[0.353s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.354s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.354s] running build
+[0.354s] running build_py
+[0.355s] running install
+[0.356s] running install_lib
+[0.357s] running install_data
+[0.359s] running install_egg_info
+[0.360s] removing '/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.361s] Copying ../../build/task_2/task_2.egg-info to /ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[0.367s] running install_scripts
+[0.377s] Installing client script to /ros2_ws/install/task_2/lib/task_2
+[0.378s] Installing listener script to /ros2_ws/install/task_2/lib/task_2
+[0.379s] Installing service script to /ros2_ws/install/task_2/lib/task_2
+[0.379s] Installing talker script to /ros2_ws/install/task_2/lib/task_2
+[0.380s] writing list of installed files to '/ros2_ws/build/task_2/install.log'
+[0.393s] Invoked command in '/ros2_ws/src/task_2' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/ros2_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/ros2_ws/install/task_2_interfaces/lib/aarch64-linux-gnu/pkgconfig:/ros2_ws/install/task_2_interfaces/lib/pkgconfig PYTHONPATH=/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_2/lib/python3.10/site-packages:/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/ros2_ws/install/task_2_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /ros2_ws/build/task_2/build install --record /ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

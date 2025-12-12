@@ -1,0 +1,43 @@
+[0.302s] Invoking command in '/ros2_ws/src/task_1': PYTHONPATH=/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /ros2_ws/build/task_1/build install --record /ros2_ws/build/task_1/install.log --single-version-externally-managed install_data
+[0.405s] running egg_info
+[0.406s] creating ../../build/task_1/task_1.egg-info
+[0.406s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[0.407s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[0.408s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[0.409s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[0.409s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[0.410s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.413s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.414s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.415s] running build_py
+[0.416s] creating /ros2_ws/build/task_1/build
+[0.417s] creating /ros2_ws/build/task_1/build/lib
+[0.418s] creating /ros2_ws/build/task_1/build/lib/task_1
+[0.418s] copying task_1/talker.py -> /ros2_ws/build/task_1/build/lib/task_1
+[0.419s] copying task_1/__init__.py -> /ros2_ws/build/task_1/build/lib/task_1
+[0.420s] copying task_1/listener.py -> /ros2_ws/build/task_1/build/lib/task_1
+[0.422s] running install
+[0.422s] running install_lib
+[0.423s] creating /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.424s] copying /ros2_ws/build/task_1/build/lib/task_1/talker.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.430s] copying /ros2_ws/build/task_1/build/lib/task_1/__init__.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.432s] copying /ros2_ws/build/task_1/build/lib/task_1/listener.py -> /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.435s] byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/talker.py to talker.cpython-310.pyc
+[0.441s] byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/__init__.py to __init__.cpython-310.pyc
+[0.448s] byte-compiling /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/listener.py to listener.cpython-310.pyc
+[0.454s] running install_data
+[0.457s] creating /ros2_ws/install/task_1/share/ament_index
+[0.459s] creating /ros2_ws/install/task_1/share/ament_index/resource_index
+[0.460s] creating /ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[0.461s] copying resource/task_1 -> /ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[0.462s] copying package.xml -> /ros2_ws/install/task_1/share/task_1
+[0.464s] creating /ros2_ws/install/task_1/share/task_1/launch
+[0.464s] copying launch/pub_sub_launch.py -> /ros2_ws/install/task_1/share/task_1/launch
+[0.465s] running install_egg_info
+[0.472s] Copying ../../build/task_1/task_1.egg-info to /ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+[0.510s] running install_scripts
+[0.531s] Installing listener script to /ros2_ws/install/task_1/lib/task_1
+[0.536s] Installing talker script to /ros2_ws/install/task_1/lib/task_1
+[0.539s] writing list of installed files to '/ros2_ws/build/task_1/install.log'
+[0.562s] Invoked command in '/ros2_ws/src/task_1' returned '0': PYTHONPATH=/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /ros2_ws/build/task_1/build install --record /ros2_ws/build/task_1/install.log --single-version-externally-managed install_data
