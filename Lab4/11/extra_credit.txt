@@ -1,0 +1,5 @@
+Extra Credit Logic:
+- has an adaptive speed control based on detected radius (distance).
+- it has dynamic angular velocity based on horizontal error.
+- it can extend to search behavior when ball is lost (rotating sweep).
+
